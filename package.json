@@ -1,0 +1,23 @@
+{
+  "name": "m101x-test-1",
+  "version": "0.0.0",
+  "description": "Learning MEAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "test-kitten": "mocha -R nyan test.js",
+    "test-gulp": "gulp test",
+    "watch": "gulp watch"
+  },
+  "author": "jpnsingh",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "mongodb": "~2.1.19"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  }
+}
