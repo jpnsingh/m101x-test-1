@@ -12,8 +12,9 @@
   "author": "jpnsingh",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "underscore": "~1.8.3",
-    "mongodb": "~2.1.19"
+    "mongodb": "~2.1.19",
+    "mongoose": "^4.6.6",
+    "underscore": "~1.8.3"
   },
   "devDependencies": {
     "gulp": "3.9.1",
